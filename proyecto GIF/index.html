@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles1.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Comic+Neue&display=swap" rel="stylesheet">
+    <title>proyecto/gif</title>
+</head>
+<body>
+
+    <header id="header">
+    <div class="welcome">
+        <p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.</p>
+    </div>
+    
+
+    <div class="logo">
+        <img id="logo" src="./images/gifOF_logo.png" alt="logo">
+    </div> <!--logo-->
+
+    <div class="button">
+        <a href="mis_guifos.html"><button class="first">Crear Guifos</button></a>
+        <button id="second">Elegir tema</button>
+        <button id="three"><img src="./images/dropdown.svg" alt=""></button>
+        <a href="mis_guifos.html"><p>Mis Guifos</p></a>
+        <section id="dropdown">
+            <button id="day"><span></span> sailor day</button>
+            <button id="night"><span></span>sailor night</button>
+        </section>
+    </div> <!--botones-->
+
+    <div class="search">
+        <div><p>Buscar</p></div>
+        <form action="index.html" method="GET" >
+            <input type="text" placeholder= "Busca gifs, hashtags, temas, busca lo que quieras…" id="texto" autocomplete="off">
+            <button disabled id="fourth" type="button" ><img src="./images/lupa_inactive.svg" alt="lupa">Buscar</button>
+        </form>
+        <div id="recomendedinput">  
+        </div>
+
+    </div> <!--cartel de busqueda-->
+    
+    </header>
+    
+    <!--hoy te sugerimos-->
+    <section id="sugerencias">
+        <div id="first"><p>hoy te sugerimos</p></div>
+    </section>
+
+    <!--gifs random en pagina principal y busqueda de gifs-->
+    <section id="principalgifs">
+        <div><p id="searchgif">tendencias</p></div>
+    </section>
+
+   
+
+
+<script src="javascript.js"></script>
+</body>
+</html>
